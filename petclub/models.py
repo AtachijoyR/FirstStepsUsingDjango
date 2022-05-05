@@ -18,7 +18,7 @@ class Pet(models.Model):
     name2 = models.CharField(max_length=50)
     age = models.IntegerField()
     color = models.CharField(max_length=50)
-    weight = models.IntegerField()
+    #weight = models.IntegerField()
     owner = models.ForeignKey(
         'Person', 
         on_delete=models.CASCADE,
