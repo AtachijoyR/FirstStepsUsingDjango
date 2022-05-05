@@ -7,7 +7,7 @@ from rest_framework.views import APIView
 
 class HelloWorld(APIView):
     def get(self, request): # verbo de la peticion como un metodo
-        # logica asociada al endpoint
+        # PRUEBA
         return Response(data="Hello, World !", status=200) # respuesta del servicio
     def patch(self, request): #Sobrescribe el comportamiento del anterior para
         return Response(data="Me encuentro en patch", status = 200)
